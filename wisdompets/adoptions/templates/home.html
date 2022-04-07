@@ -5,6 +5,11 @@
     <title>Home</title>
 </head>
 <body>
-<p>home page</p>
+<p>PET LIST</p>
+
+<ul>{%for pet in pets%}</ul>
+<li>{{pet.name}}</li>
+    {% endfor %}
+
 </body>
 </html>

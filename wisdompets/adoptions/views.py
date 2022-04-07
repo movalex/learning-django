@@ -10,6 +10,7 @@ def home(request):
         "pets": pets,
     })
 
+
 def pet_detail(request, pet_id):
     try:
         pet = Pet.objects.get(id=pet_id)
